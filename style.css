@@ -1,0 +1,39 @@
+body{
+    font-family: menlo;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container h1{
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+#container #stopwatch{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#containerr #stopwatch span{
+    display: inline-block;
+    padding:1rem;
+}
+#container #buttons button{
+    width: 120px;
+    height: 35px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: aqua;
+    border:none;
+    border:1.5px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
